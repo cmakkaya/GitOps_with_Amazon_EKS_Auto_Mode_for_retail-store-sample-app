@@ -34,6 +34,8 @@ This is a sample application designed to illustrate various concepts related to 
 - [Monitoring and Observability](#monitoring-and-observability)
 - [Cleanup](https://github.com/LondheShubham153/retail-store-sample-app/blob/main/README.md#step-12-cleanup)
 - [Troubleshooting](#troubleshooting)
+- [Branching_Strategy_and_GitOps_Workflow](#Branching-Strategy-and-GitOps-Workflow)
+
 
 ## Overview
 
@@ -414,13 +416,12 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 - **Issues**: [GitHub Issues](https://github.com/LondheShubham153/retail-store-sample-app/issues)
 - **Discord**: [TrainWithShubhamCommunity](https://discord.gg/kGEr9mR5gT)
 
----
 
-<div align="center">
+## Branching Strategy and GitOps Workflow
+
+**🔄 For advanced GitOps workflows, see [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md)**
 
 **⭐ Star this repository if you found it helpful!**
-
-**🔄 For advanced GitOps workflows, see [BRANCHING_STRATEGY.md](./Branching_Strategy_and_GitOps_Workflow.md)**
 
 </div>
 
