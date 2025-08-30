@@ -420,7 +420,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 
 **⭐ Star this repository if you found it helpful!**
 
-**🔄 For advanced GitOps workflows, see [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)**
+**🔄 For advanced GitOps workflows, see [BRANCHING_STRATEGY.md](./Branching_Strategy_and_GitOps_Workflow.md)**
 
 </div>
 
