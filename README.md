@@ -88,7 +88,7 @@ The Infrastructure Architecture follows cloud-native best practices:
 4. **Deploy Infrastructure**: Run Terraform in two phases (see [Getting Started](#getting-started))
 5. **Access Application**: Get load balancer URL and browse the retail store
 
-**Need advanced GitOps workflow?** See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for automated CI/CD setup.
+**Need advanced GitOps workflow?** See [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md) for automated CI/CD setup.
 
 ## Branch Strategy
 
@@ -108,7 +108,7 @@ This repository uses a **dual-branch approach** for different deployment scenari
 - **Updates**: Automatic on code changes
 - **Best for**: Production environments, automated workflows, enterprise deployments
 
-> **📚 For detailed branching strategy, CI/CD setup, and advanced workflows, see [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)**
+> **📚 For detailed branching strategy, CI/CD setup, and advanced workflows, see [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md)**
 
 ## Getting Started
 
@@ -204,7 +204,7 @@ git clone https://github.com/LondheShubham153/retail-store-sample-app.git
 > **For Production (GitOps Branch):**
 > - Uses private ECR with automated CI/CD
 > - Requires GitHub Actions setup
-> - See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for complete setup
+> - See [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md) for complete setup
 
 
 ### Step 4. Deploy Infrastructure with Terraform:
@@ -398,12 +398,12 @@ Error: Failed to pull image "123456789012.dkr.ecr.us-west-2.amazonaws.com/retail
 1. Ensure changes are in `src/` directory
 2. Verify you're on the `production` branch (gitops)
 3. Check GitHub Actions is enabled in repository settings
-4. Review [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md) for detailed setup
+4. Review [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md) for detailed setup
 
 ### Getting Help
 
 - **Basic deployment issues**: Check this README
-- **Advanced GitOps issues**: See [BRANCHING_STRATEGY.md](./BRANCHING_STRATEGY.md)
+- **Advanced GitOps issues**: See [Branching_Strategy_and_GitOps_Workflow.md](./Branching_Strategy_and_GitOps_Workflow.md)
 - **Infrastructure issues**: Review Terraform logs
 - **Application issues**: Check ArgoCD UI and kubectl logs
 
